@@ -1,0 +1,36 @@
+html {
+    background-image: URL("bg6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    width: 400px;
+    height: 200px;
+    color: white;
+    font-family: "Verdana";
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 200px;
+    border-radius: 8px;
+}
+
+.container p {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.container span {
+    color: pink;
+}
